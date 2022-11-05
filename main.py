@@ -1,5 +1,6 @@
-a=int(input("Введите сторону квадрата: "))
+a=int(input("Введите длинну прямоугольника: "))
+b=int(input("Введите ширину прямоугольника: "))
 for i in range(a):
-    for j in range(a):
+    for c in range(b):
         print("*",end=" ")
-    print() 
+    print()
