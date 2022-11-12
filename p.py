@@ -1,3 +1,2 @@
-a = input("Введите строку: ")
-b = input("Введите символ для поиска: ")
-print(a.count(b))
+for a in reversed("python"):
+    print(a)
